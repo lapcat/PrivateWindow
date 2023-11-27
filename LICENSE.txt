@@ -1,0 +1,27 @@
+1. PrivateWindow and PublicWindow are Copyright © 2023 Jeff Johnson. All rights reserved.
+
+2. You may make copies of the source code and redistribute copies of the source code.
+
+3. All copies of the source code must include this license file unmodified.
+
+4. You may modify the source code, but you must not modify or remove this license file.
+
+5. You must not charge money for the unmodified or modified source code.
+
+6. You may compile the unmodified or modified source code and run the compiled products yourself.
+
+7. You must not redistribute the compiled products of the unmodified or modified source code without express written permission from Jeff Johnson.
+
+8. The spirit of this license agreement is that Jeff Johnson provides PrivateWindow and PublicWindow to the public for free, and nobody is to make money from selling Jeff's work as if it were their own.
+
+9. PrivateWindow was originally based on Safari Private (https://github.com/sindresorhus/Safari-Private). The license of Safari Private is reproduced below:
+
+MIT License
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

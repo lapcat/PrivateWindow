@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52FFB1592B14C64800D6FAD1 /* BothApps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52FFB15A2B14C64800D6FAD1 /* Build configuration list for PBXAggregateTarget "BothApps" */;
+			buildPhases = (
+			);
+			dependencies = (
+				52FFB15E2B14C65C00D6FAD1 /* PBXTargetDependency */,
+				52FFB1602B14C65C00D6FAD1 /* PBXTargetDependency */,
+			);
+			name = BothApps;
+			productName = BothApps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		52352A262B14503200442B5B /* JJApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D02B1406CD00C30991 /* JJApplicationDelegate.m */; };
+		52352A272B14503600442B5B /* JJLicenseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D22B1406CD00C30991 /* JJLicenseWindow.m */; };
+		52352A282B14503A00442B5B /* JJMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D12B1406CD00C30991 /* JJMainMenu.m */; };
+		52352A292B14504000442B5B /* JJMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21CE2B1406CD00C30991 /* JJMainWindow.m */; };
+		52352A2A2B14504300442B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21CF2B1406CD00C30991 /* main.m */; };
+		52352A2B2B1451F400442B5B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 524A21D42B1406CD00C30991 /* LICENSE.txt */; };
+		524A21DC2B1406CD00C30991 /* JJMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21CE2B1406CD00C30991 /* JJMainWindow.m */; };
+		524A21DD2B1406CD00C30991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21CF2B1406CD00C30991 /* main.m */; };
+		524A21DE2B1406CD00C30991 /* JJApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D02B1406CD00C30991 /* JJApplicationDelegate.m */; };
+		524A21DF2B1406CD00C30991 /* JJMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D12B1406CD00C30991 /* JJMainMenu.m */; };
+		524A21E02B1406CD00C30991 /* JJLicenseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D22B1406CD00C30991 /* JJLicenseWindow.m */; };
+		524A21E22B1406CD00C30991 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 524A21D42B1406CD00C30991 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FFB15D2B14C65C00D6FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A21AD2B1402A900C30991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524A21B42B1402A900C30991;
+			remoteInfo = PrivateWindow;
+		};
+		52FFB15F2B14C65C00D6FAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524A21AD2B1402A900C30991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52352A142B144D7300442B5B;
+			remoteInfo = PublicWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52352A152B144D7300442B5B /* PublicWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PublicWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A21B52B1402A900C30991 /* PrivateWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A21C82B1406CD00C30991 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		524A21CA2B1406CD00C30991 /* JJMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainWindow.h; sourceTree = "<group>"; };
+		524A21CB2B1406CD00C30991 /* JJApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJApplicationDelegate.h; sourceTree = "<group>"; };
+		524A21CC2B1406CD00C30991 /* JJLicenseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLicenseWindow.h; sourceTree = "<group>"; };
+		524A21CD2B1406CD00C30991 /* JJMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainMenu.h; sourceTree = "<group>"; };
+		524A21CE2B1406CD00C30991 /* JJMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainWindow.m; sourceTree = "<group>"; };
+		524A21CF2B1406CD00C30991 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		524A21D02B1406CD00C30991 /* JJApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJApplicationDelegate.m; sourceTree = "<group>"; };
+		524A21D12B1406CD00C30991 /* JJMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainMenu.m; sourceTree = "<group>"; };
+		524A21D22B1406CD00C30991 /* JJLicenseWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLicenseWindow.m; sourceTree = "<group>"; };
+		524A21D32B1406CD00C30991 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		524A21D42B1406CD00C30991 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		524A21D52B1406CD00C30991 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		524A21D62B1406CD00C30991 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		524A21D82B1406CD00C30991 /* Codesign.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Codesign.entitlements; sourceTree = "<group>"; };
+		524A21D92B1406CD00C30991 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52352A122B144D7300442B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A21B22B1402A900C30991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524A21AC2B1402A900C30991 = {
+			isa = PBXGroup;
+			children = (
+				524A21D32B1406CD00C30991 /* README.md */,
+				524A21D42B1406CD00C30991 /* LICENSE.txt */,
+				524A21D52B1406CD00C30991 /* Debug.xcconfig */,
+				524A21D62B1406CD00C30991 /* Release.xcconfig */,
+				524A21C82B1406CD00C30991 /* Shared.xcconfig */,
+				524A21D72B1406CD00C30991 /* nonsource */,
+				524A21C92B1406CD00C30991 /* source */,
+				524A21B62B1402A900C30991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524A21B62B1402A900C30991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524A21B52B1402A900C30991 /* PrivateWindow.app */,
+				52352A152B144D7300442B5B /* PublicWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524A21C92B1406CD00C30991 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				524A21CB2B1406CD00C30991 /* JJApplicationDelegate.h */,
+				524A21D02B1406CD00C30991 /* JJApplicationDelegate.m */,
+				524A21CC2B1406CD00C30991 /* JJLicenseWindow.h */,
+				524A21D22B1406CD00C30991 /* JJLicenseWindow.m */,
+				524A21CD2B1406CD00C30991 /* JJMainMenu.h */,
+				524A21D12B1406CD00C30991 /* JJMainMenu.m */,
+				524A21CA2B1406CD00C30991 /* JJMainWindow.h */,
+				524A21CE2B1406CD00C30991 /* JJMainWindow.m */,
+				524A21CF2B1406CD00C30991 /* main.m */,
+			);
+			path = source;
+			sourceTree = SOURCE_ROOT;
+		};
+		524A21D72B1406CD00C30991 /* nonsource */ = {
+			isa = PBXGroup;
+			children = (
+				524A21D92B1406CD00C30991 /* Info.plist */,
+				524A21D82B1406CD00C30991 /* Codesign.entitlements */,
+			);
+			path = nonsource;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52352A142B144D7300442B5B /* PublicWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52352A242B144D7400442B5B /* Build configuration list for PBXNativeTarget "PublicWindow" */;
+			buildPhases = (
+				52352A112B144D7300442B5B /* Sources */,
+				52352A122B144D7300442B5B /* Frameworks */,
+				52352A132B144D7300442B5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PublicWindow;
+			productName = PublicWindow;
+			productReference = 52352A152B144D7300442B5B /* PublicWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524A21B42B1402A900C30991 /* PrivateWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A21C52B1402AA00C30991 /* Build configuration list for PBXNativeTarget "PrivateWindow" */;
+			buildPhases = (
+				524A21B12B1402A900C30991 /* Sources */,
+				524A21B22B1402A900C30991 /* Frameworks */,
+				524A21B32B1402A900C30991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateWindow;
+			productName = PrivateWindow;
+			productReference = 524A21B52B1402A900C30991 /* PrivateWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524A21AD2B1402A900C30991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					52352A142B144D7300442B5B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					524A21B42B1402A900C30991 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					52FFB1592B14C64800D6FAD1 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 524A21B02B1402A900C30991 /* Build configuration list for PBXProject "PrivateWindow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524A21AC2B1402A900C30991;
+			productRefGroup = 524A21B62B1402A900C30991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524A21B42B1402A900C30991 /* PrivateWindow */,
+				52352A142B144D7300442B5B /* PublicWindow */,
+				52FFB1592B14C64800D6FAD1 /* BothApps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52352A132B144D7300442B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52352A2B2B1451F400442B5B /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A21B32B1402A900C30991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A21E22B1406CD00C30991 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52352A112B144D7300442B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52352A262B14503200442B5B /* JJApplicationDelegate.m in Sources */,
+				52352A292B14504000442B5B /* JJMainWindow.m in Sources */,
+				52352A282B14503A00442B5B /* JJMainMenu.m in Sources */,
+				52352A2A2B14504300442B5B /* main.m in Sources */,
+				52352A272B14503600442B5B /* JJLicenseWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524A21B12B1402A900C30991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A21DF2B1406CD00C30991 /* JJMainMenu.m in Sources */,
+				524A21E02B1406CD00C30991 /* JJLicenseWindow.m in Sources */,
+				524A21DD2B1406CD00C30991 /* main.m in Sources */,
+				524A21DC2B1406CD00C30991 /* JJMainWindow.m in Sources */,
+				524A21DE2B1406CD00C30991 /* JJApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FFB15E2B14C65C00D6FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524A21B42B1402A900C30991 /* PrivateWindow */;
+			targetProxy = 52FFB15D2B14C65C00D6FAD1 /* PBXContainerItemProxy */;
+		};
+		52FFB1602B14C65C00D6FAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52352A142B144D7300442B5B /* PublicWindow */;
+			targetProxy = 52FFB15F2B14C65C00D6FAD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52352A222B144D7400442B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D52B1406CD00C30991 /* Debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = PublicWindow;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control Safari and System Events to open a non-private window.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PublicWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52352A232B144D7400442B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D62B1406CD00C30991 /* Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = PublicWindow;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control Safari and System Events to open a non-private window.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PublicWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		524A21C32B1402AA00C30991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21C82B1406CD00C30991 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		524A21C42B1402AA00C30991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21C82B1406CD00C30991 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		524A21C62B1402AA00C30991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D52B1406CD00C30991 /* Debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = PrivateWindow;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control Safari and System Events to open a private window.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PrivateWindow;
+				PRODUCT_NAME = PrivateWindow;
+			};
+			name = Debug;
+		};
+		524A21C72B1402AA00C30991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D62B1406CD00C30991 /* Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = PrivateWindow;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control Safari and System Events to open a private window.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PrivateWindow;
+				PRODUCT_NAME = PrivateWindow;
+			};
+			name = Release;
+		};
+		52FFB15B2B14C64800D6FAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D52B1406CD00C30991 /* Debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LT69JF8NZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52FFB15C2B14C64800D6FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A21D62B1406CD00C30991 /* Release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LT69JF8NZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52352A242B144D7400442B5B /* Build configuration list for PBXNativeTarget "PublicWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52352A222B144D7400442B5B /* Debug */,
+				52352A232B144D7400442B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524A21B02B1402A900C30991 /* Build configuration list for PBXProject "PrivateWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A21C32B1402AA00C30991 /* Debug */,
+				524A21C42B1402AA00C30991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524A21C52B1402AA00C30991 /* Build configuration list for PBXNativeTarget "PrivateWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A21C62B1402AA00C30991 /* Debug */,
+				524A21C72B1402AA00C30991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FFB15A2B14C64800D6FAD1 /* Build configuration list for PBXAggregateTarget "BothApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FFB15B2B14C64800D6FAD1 /* Debug */,
+				52FFB15C2B14C64800D6FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524A21AD2B1402A900C30991 /* Project object */;
+}
