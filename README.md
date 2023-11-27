@@ -15,6 +15,7 @@ PrivateWindow was originally based on [Safari Private](https://github.com/sindre
 1. Download the [latest release](https://github.com/lapcat/PrivateWindow/releases/latest).
 2. Move `PrivateWindow.app` to your Applications folder.
 3. Open `PrivateWindow.app`.
+![PrivateWindow.app main window](screenshots/6.png)
 4. Press the Open Accessibility Settings button.
 ![PrivateWindow.app would like to control this computer using accessibility features. Grant access to this application in Privacy & Security settings, located in System Settings.](screenshots/1.png)
 5. Press the Open System Settings button.
