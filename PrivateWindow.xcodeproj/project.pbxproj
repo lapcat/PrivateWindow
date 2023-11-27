@@ -282,7 +282,7 @@
 			baseConfigurationReference = 524A21D52B1406CD00C30991 /* Debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_KEY_CFBundleDisplayName = PublicWindow;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control Safari and System Events to open a non-private window.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control System Events to open a non-private window.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PublicWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -293,7 +293,7 @@
 			baseConfigurationReference = 524A21D62B1406CD00C30991 /* Release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_KEY_CFBundleDisplayName = PublicWindow;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control Safari and System Events to open a non-private window.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PublicWindow needs to control System Events to open a non-private window.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PublicWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -318,7 +318,7 @@
 			baseConfigurationReference = 524A21D52B1406CD00C30991 /* Debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_KEY_CFBundleDisplayName = PrivateWindow;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control Safari and System Events to open a private window.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control System Events to open a private window.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PrivateWindow;
 				PRODUCT_NAME = PrivateWindow;
 			};
@@ -329,7 +329,7 @@
 			baseConfigurationReference = 524A21D62B1406CD00C30991 /* Release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_KEY_CFBundleDisplayName = PrivateWindow;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control Safari and System Events to open a private window.";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "PrivateWindow needs to control System Events to open a private window.";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lapcatsoftware.PrivateWindow;
 				PRODUCT_NAME = PrivateWindow;
 			};

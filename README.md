@@ -22,12 +22,10 @@ PrivateWindow was originally based on [Safari Private](https://github.com/sindre
 6. Enable PrivateWindow.
 ![System Settings > Privacy & Security > Accessibility > PrivateWindow](screenshots/2.png)
 7. Repeat the above steps for `PublicWindow.app`.
-8. The first time you open a URL with the app, allow it to control Safari and System Events.
-!["PrivateWindow.app" wants access to control "Safari.app". Allowing control will provide access to documents and data in "Safari.app", and to perform actions within that app.](screenshots/3.png)
-
+8. The first time you open a URL with the app, allow it to control System Events.
 !["PrivateWindow.app" wants access to control "System Events.app". Allowing control will provide access to documents and data in "System Events.app", and to perform actions within that app.](screenshots/4.png)
 
-![System Settings > Privacy & Security > Automation > PrivateWindow > Safari and System Events](screenshots/5.png)
+![System Settings > Privacy & Security > Automation > PrivateWindow > System Events](screenshots/5.png)
 
 
 ## Uninstalling

@@ -93,19 +93,28 @@ NSString*const SafariTechnologyPreviewBundleID = @"com.apple.SafariTechnologyPre
 			});
 		} else {
 			NSString* formatString =
-@"set windowCount to 0\n\
-tell application \"%@\" to set windowCount to windows count\n\
-tell application \"System Events\" to tell its application process \"%@\"\n\
-keystroke \"n\" using {%@command down}\n\
-end tell\n\
-tell application \"%@\"\n\
-repeat while (windows count) <= windowCount\n\
-delay 0.1\n\
-end repeat\n\
-end tell";
-			NSString* keystroke = [@PRODUCT_NAME isEqualToString:@"PrivateWindow"] ? @"shift down, " : @"";
+			@"tell application \"System Events\"\n\
+			tell application process \"%@\"\n\
+			repeat while (count menu bars) = 0\n\
+			delay 0.1\n\
+			end repeat\n\
+			end tell\n\
+			local restoreold\n\
+			set oldapp to first process whose frontmost is true\n\
+			tell application process \"%@\"\n\
+			set restoreold to not frontmost\n\
+			if (restoreold) then\n\
+			set frontmost to true\n\
+			end if\n\
+			click menu item %@ of menu 1 of menu bar item 3 of menu bar 1\n\
+			end tell\n\
+			if (restoreold) then\n\
+			set frontmost of oldapp to true\n\
+			end if\n\
+			end tell";
+			NSString* menuItem = [@PRODUCT_NAME isEqualToString:@"PrivateWindow"] ? @"2" : @"1";
 			NSString* safari = useSafariTechnologyPreview ? @"Safari Technology Preview" : @"Safari";
-			NSString* source = [NSString stringWithFormat:formatString, safari, safari, keystroke, safari];
+			NSString* source = [NSString stringWithFormat:formatString, safari, safari, menuItem];
 			NSAppleScript* script = [[NSAppleScript alloc] initWithSource:source];
 			NSDictionary* errorInfo = nil;
 			NSAppleEventDescriptor* descriptor = [script executeAndReturnError:&errorInfo];
