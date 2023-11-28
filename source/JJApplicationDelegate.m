@@ -109,7 +109,9 @@ NSString*const SafariTechnologyPreviewBundleID = @"com.apple.SafariTechnologyPre
 			click menu item %@ of menu 1 of menu bar item 3 of menu bar 1\n\
 			end tell\n\
 			if (restoreold) then\n\
+			try\n\
 			set frontmost of oldapp to true\n\
+			end try\n\
 			end if\n\
 			end tell";
 			NSString* menuItem = [@PRODUCT_NAME isEqualToString:@"PrivateWindow"] ? @"2" : @"1";
