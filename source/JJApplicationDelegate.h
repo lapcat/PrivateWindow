@@ -7,6 +7,7 @@
 @end
 
 extern NSString*_Null_unspecified JJApplicationName;
+extern NSString*_Nonnull const UseSafariMenuItemSetting;
 extern NSString*_Nonnull const UseSafariTechnologyPreviewSetting;
 extern NSString*_Nonnull const SafariBundleID;
 extern NSString*_Nonnull const SafariTechnologyPreviewBundleID;

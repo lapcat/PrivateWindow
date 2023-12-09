@@ -34,6 +34,10 @@
 		524A21DF2B1406CD00C30991 /* JJMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D12B1406CD00C30991 /* JJMainMenu.m */; };
 		524A21E02B1406CD00C30991 /* JJLicenseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D22B1406CD00C30991 /* JJLicenseWindow.m */; };
 		524A21E22B1406CD00C30991 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 524A21D42B1406CD00C30991 /* LICENSE.txt */; };
+		526E3C1F2B24204D009CCD86 /* FileProfiles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526E3C1D2B24204C009CCD86 /* FileProfiles@2x.png */; };
+		526E3C202B24204D009CCD86 /* FileProfiles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526E3C1D2B24204C009CCD86 /* FileProfiles@2x.png */; };
+		526E3C212B24204D009CCD86 /* FileDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526E3C1E2B24204D009CCD86 /* FileDefault@2x.png */; };
+		526E3C222B24204D009CCD86 /* FileDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526E3C1E2B24204D009CCD86 /* FileDefault@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,8 @@
 		524A21D62B1406CD00C30991 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		524A21D82B1406CD00C30991 /* Codesign.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Codesign.entitlements; sourceTree = "<group>"; };
 		524A21D92B1406CD00C30991 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526E3C1D2B24204C009CCD86 /* FileProfiles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FileProfiles@2x.png"; sourceTree = "<group>"; };
+		526E3C1E2B24204D009CCD86 /* FileDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FileDefault@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,8 @@
 		524A21D72B1406CD00C30991 /* nonsource */ = {
 			isa = PBXGroup;
 			children = (
+				526E3C1E2B24204D009CCD86 /* FileDefault@2x.png */,
+				526E3C1D2B24204C009CCD86 /* FileProfiles@2x.png */,
 				524A21D92B1406CD00C30991 /* Info.plist */,
 				524A21D82B1406CD00C30991 /* Codesign.entitlements */,
 			);
@@ -223,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52352A2B2B1451F400442B5B /* LICENSE.txt in Resources */,
+				526E3C202B24204D009CCD86 /* FileProfiles@2x.png in Resources */,
+				526E3C222B24204D009CCD86 /* FileDefault@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				524A21E22B1406CD00C30991 /* LICENSE.txt in Resources */,
+				526E3C1F2B24204D009CCD86 /* FileProfiles@2x.png in Resources */,
+				526E3C212B24204D009CCD86 /* FileDefault@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

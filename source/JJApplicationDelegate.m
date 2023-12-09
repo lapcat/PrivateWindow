@@ -5,6 +5,7 @@
 #import "JJMainWindow.h"
 
 NSString* JJApplicationName;
+NSString*const UseSafariMenuItemSetting = @"UseSafariMenuItem";
 NSString*const UseSafariTechnologyPreviewSetting = @"UseSafariTechnologyPreview";
 NSString*const SafariBundleID = @"com.apple.Safari";
 NSString*const SafariTechnologyPreviewBundleID = @"com.apple.SafariTechnologyPreview";
@@ -38,6 +39,11 @@ NSString*const SafariTechnologyPreviewBundleID = @"com.apple.SafariTechnologyPre
 		NSLog(@"CFBundleName nil!");
 		JJApplicationName = @PRODUCT_NAME;
 	}
+	NSString* defaultMenuItem = [@PRODUCT_NAME isEqualToString:@"PrivateWindow"] ? @"2" : @"1";
+	[[NSUserDefaults standardUserDefaults] registerDefaults:@{
+		UseSafariMenuItemSetting:defaultMenuItem,
+		UseSafariTechnologyPreviewSetting:@NO
+	}];
 	[JJMainMenu populateMainMenu];
 }
 
@@ -114,7 +120,7 @@ NSString*const SafariTechnologyPreviewBundleID = @"com.apple.SafariTechnologyPre
 			end try\n\
 			end if\n\
 			end tell";
-			NSString* menuItem = [@PRODUCT_NAME isEqualToString:@"PrivateWindow"] ? @"2" : @"1";
+			NSString* menuItem = [[NSUserDefaults standardUserDefaults] stringForKey:UseSafariMenuItemSetting];
 			NSString* safari = useSafariTechnologyPreview ? @"Safari Technology Preview" : @"Safari";
 			NSString* source = [NSString stringWithFormat:formatString, safari, safari, menuItem];
 			NSAppleScript* script = [[NSAppleScript alloc] initWithSource:source];
