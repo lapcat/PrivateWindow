@@ -36,7 +36,7 @@ static const CGFloat JJMainWindowMargin = 15.0;
 	NSMutableArray<NSLayoutConstraint*>* constraints = [NSMutableArray array];
 	
 	NSString* windowType = [JJApplicationName isEqualToString:@"PrivateWindow"] ? @"private" : @"non-private";
-	NSString* intro = [NSString stringWithFormat:@"%@ opens URLs in a %@ window in your selected web browser and then quits.\nYou can set %@ as your default web brower in System Settings > Desktop & Dock.", JJApplicationName, windowType, JJApplicationName];
+	NSString* intro = [NSString stringWithFormat:@"%@ opens URLs in a %@ window in your selected web browser and then quits.\nYou can set %@ as your default web browser in System Settings > Desktop & Dock.", JJApplicationName, windowType, JJApplicationName];
 	NSTextField* label = [NSTextField wrappingLabelWithString:intro];
 	[label setContentCompressionResistancePriority:NSLayoutPriorityDefaultHigh forOrientation:NSLayoutConstraintOrientationHorizontal];
 	[label setTranslatesAutoresizingMaskIntoConstraints:NO];
